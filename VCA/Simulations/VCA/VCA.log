@@ -1,6 +1,10 @@
 Circuit: * C:\Users\Edwin\Downloads\SYNTHMANIA\VCA\Simulations\VCA\VCA.asc
 
 WARNING: Less than two connections to node N002.  This node is used by V4.
+WARNING: Less than two connections to node NC_01.  This node is used by D1.
+WARNING: Less than two connections to node NC_02.  This node is used by D2.
+WARNING: Less than two connections to node NC_03.  This node is used by R20.
+WARNING: Less than two connections to node NC_04.  This node is used by R21.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -8,34 +12,43 @@ Gmin = 10
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 6.49
+Gmin = 6.66353
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
 vernier = 0.0078125
+Gmin = 6.68747
 vernier = 0.00390625
-Gmin = 6.67976
 vernier = 0.00195313
 vernier = 0.000976563
+Gmin = 6.67443
 vernier = 0.000488281
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
 
 
-Date: Sun Nov 28 15:36:38 2021
-Total elapsed time: 0.584 seconds.
+Date: Sat Dec 04 16:47:27 2021
+Total elapsed time: 1.004 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 21573
-traniter = 20080
-tranpoints = 10030
-accept = 10028
+totiter = 21732
+traniter = 20064
+tranpoints = 10033
+accept = 10031
 rejected = 2
-matrix size = 77
-fillins = 281
+matrix size = 108
+fillins = 658
 solver = Normal
-Matrix Compiler1: 21.20 KB object code size  3.3/1.7/[1.0]
-Matrix Compiler2: 11.16 KB object code size  1.9/1.8/[0.9]
+Thread vector: 7.8/4.6[2] 3.3/3.3[1] 4.8/3.4[2] 0.9/1.5[1]  2592/500
+Matrix Compiler1: 66.36 KB object code size  10.3/5.6/[3.1]
+Matrix Compiler2: 20.50 KB object code size  3.7/3.2/[1.6]
 
