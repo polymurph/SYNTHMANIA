@@ -1,0 +1,64 @@
+* C:\Users\Edwin\Downloads\SYNTHMANIA\VCA\Simulations\VCA\VCA.asc
+V1 V+ 0 12
+V2 0 V- 12
+R1 AGND 0 1
+XU1 AGND N003 V+ V- N004 NE5532
+V3 in 0 SINE(0 4 15k 1m)
+R2 N003 in 10k
+R3 N004 N003 10k
+Q1 N007 N009 N011 0 BC847A
+Q2 N006 N010 N011 0 BC847A
+R5 V+ N007 10k
+R6 V+ N006 10k
+C1 V- AGND 100n
+C2 V+ AGND 100n
+XU2 N008 N002 V+ V- out NE5532
+C3 V- AGND 100n
+C4 V+ AGND 100n
+R7 N008 N007 10k
+R8 N002 N006 10k
+R9 N008 AGND 100k
+R10 out N002 100k
+R11 N009 AGND 100
+R12 N009 N004 10k
+V4 N005 0 5V
+C5 V+ AGND 100n
+V5 CV 0 PULSE(0 12 2m 1n 1n 1m 2m 10)
+R4 N012 CV 10k
+R13 V+ N016 28k
+R14 N016 V- 31k
+Q4 AGND basis N015 0 BC847A
+R15 N011 N015 33k
+R16 N015 V- 15k
+R17 basis N016 30k
+R18 basis N013 47k
+XU3 AGND N012 V+ V- N013 NE5532
+R19 N013 N012 10k
+C6 V- AGND 100n
+C7 V+ AGND 100n
+D1 N001 N009 1N4148
+D2 N001 N010 1N4148
+R20 N009 V- 100k
+R21 N010 V- 100k
+R22 V+ N001 100k
+R23 N010 AGND 100
+C8 N013 N012 1n
+C9 N004 N003 270p
+C10 out N002 27p
+R24 N008 N014 470k
+R25 V+ N014 10k
+R26 N014 V- 90k
+.model D D
+.lib C:\Users\Edwin\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Edwin\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 10m 0 1u
+.include NE5532.sub
+* https://sound-au.com/project213.htm
+* https://yusynth.net/Modular/Commun/VCA/VCA-sch.gif
+* fg = 19409Hz
+* fg = 19409Hz
+.lib ADI1.lib
+.backanno
+.end
