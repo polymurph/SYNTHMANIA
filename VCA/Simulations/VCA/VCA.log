@@ -1,6 +1,6 @@
 Circuit: * C:\Users\Edwin\Downloads\SYNTHMANIA\VCA\Simulations\VCA\VCA.asc
 
-WARNING: Less than two connections to node N005.  This node is used by V4.
+WARNING: Less than two connections to node N007.  This node is used by V4.
 WARNING: Less than two connections to node NC_01.  This node is used by R27.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -30,21 +30,21 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Tue Dec 28 15:30:26 2021
-Total elapsed time: 1.248 seconds.
+Date: Tue Dec 28 16:29:04 2021
+Total elapsed time: 1.471 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 24478
-traniter = 22812
-tranpoints = 11174
-accept = 10867
-rejected = 307
-matrix size = 109
-fillins = 677
+totiter = 24402
+traniter = 22741
+tranpoints = 11146
+accept = 10858
+rejected = 288
+matrix size = 111
+fillins = 682
 solver = Normal
-Thread vector: 6.5/4.8[2] 4.3/3.1[2] 4.6/3.2[2] 0.7/1.5[1]  2592/500
-Matrix Compiler1: 69.28 KB object code size  16.6/9.8/[3.3]
-Matrix Compiler2: 21.09 KB object code size  4.0/3.0/[0.9]
+Thread vector: 7.1/4.9[2] 4.6/3.6[2] 4.1/2.8[2] 0.8/1.4[1]  2592/500
+Matrix Compiler1: 69.78 KB object code size  12.3/7.8/[4.1]
+Matrix Compiler2: 21.34 KB object code size  4.2/3.2/[0.9]
 
