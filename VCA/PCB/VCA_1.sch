@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -390,25 +390,19 @@ F 3 "" H 8100 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9100 1500 9100 1650
-Wire Wire Line
-	9100 1650 9100 1700
+	9100 1500 9100 1700
 Wire Wire Line
 	9250 1650 9100 1650
 Connection ~ 9100 1650
 Wire Wire Line
-	9100 2300 9100 2400
-Wire Wire Line
-	9100 2400 9100 2550
+	9100 2300 9100 2550
 Wire Wire Line
 	9250 2400 9100 2400
 Connection ~ 9100 2400
 Wire Wire Line
 	9550 1650 9600 1650
 Wire Wire Line
-	9600 1650 9600 2400
-Wire Wire Line
-	9600 2400 9600 2550
+	9600 1650 9600 2550
 Wire Wire Line
 	9550 2400 9600 2400
 Connection ~ 9600 2400
@@ -418,13 +412,9 @@ Wire Wire Line
 	5800 2800 5800 2700
 Connection ~ 5800 2700
 Wire Wire Line
-	6750 1700 6750 1900
+	6750 1700 6750 2500
 Wire Wire Line
-	6750 1900 6750 2500
-Wire Wire Line
-	7300 1700 7300 2100
-Wire Wire Line
-	7300 2100 7300 2500
+	7300 1700 7300 2500
 Wire Wire Line
 	6750 1900 8150 1900
 Connection ~ 6750 1900
@@ -432,39 +422,25 @@ Wire Wire Line
 	7300 2100 8150 2100
 Connection ~ 7300 2100
 Wire Wire Line
-	8450 1900 8650 1900
+	8450 1900 8900 1900
 Wire Wire Line
-	8650 1900 8900 1900
-Wire Wire Line
-	8450 2100 8650 2100
-Wire Wire Line
-	8650 2100 8800 2100
-Wire Wire Line
-	8800 2100 8900 2100
+	8450 2100 8900 2100
 Wire Wire Line
 	8650 2500 8650 2100
 Connection ~ 8650 2100
 Wire Wire Line
-	8650 750  8650 1100
-Wire Wire Line
-	8650 1100 8650 1900
+	8650 750  8650 1900
 Wire Wire Line
 	8650 1100 9150 1100
 Connection ~ 8650 1900
 Wire Wire Line
 	9450 1100 9750 1100
 Wire Wire Line
-	9750 750  9750 1100
+	9750 750  9750 2000
 Wire Wire Line
-	9750 1100 9750 2000
+	9500 2000 9850 2000
 Wire Wire Line
-	9500 2000 9750 2000
-Wire Wire Line
-	9750 2000 9850 2000
-Wire Wire Line
-	4450 2550 4450 2700
-Wire Wire Line
-	4450 2700 4450 2850
+	4450 2550 4450 2850
 Wire Wire Line
 	4450 3150 4450 3200
 Wire Wire Line
@@ -483,16 +459,12 @@ Wire Wire Line
 Wire Wire Line
 	7550 1050 7550 1150
 Wire Wire Line
-	6350 1050 7050 1050
-Wire Wire Line
-	7050 1050 7550 1050
+	6350 1050 7550 1050
 Connection ~ 7050 1050
 Wire Wire Line
 	5800 3200 5800 3100
 Wire Wire Line
-	7600 2700 7750 2700
-Wire Wire Line
-	7750 2700 8100 2700
+	7600 2700 8100 2700
 Wire Wire Line
 	7750 2700 7750 2800
 Wire Wire Line
@@ -500,21 +472,15 @@ Wire Wire Line
 Wire Wire Line
 	6350 2200 8100 2200
 Wire Wire Line
-	6350 1700 6350 2200
-Wire Wire Line
-	6350 2200 6350 2250
+	6350 1700 6350 2250
 Wire Wire Line
 	6350 1050 6350 1400
 Connection ~ 6350 2200
 Wire Wire Line
-	6350 2550 6350 2700
-Wire Wire Line
-	6350 2700 6350 2800
+	6350 2550 6350 2800
 Connection ~ 6350 2700
 Wire Wire Line
-	8100 2550 8100 2700
-Wire Wire Line
-	8100 2700 8100 2800
+	8100 2550 8100 2800
 Connection ~ 7750 2700
 Connection ~ 8100 2700
 Wire Wire Line
@@ -524,9 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2900 6750 3100
 Wire Wire Line
-	6750 3100 7050 3100
-Wire Wire Line
-	7050 3100 7300 3100
+	6750 3100 7300 3100
 Wire Wire Line
 	7300 3100 7300 2900
 $Comp
@@ -589,38 +553,10 @@ $EndComp
 Wire Wire Line
 	7050 5200 7050 5000
 Wire Wire Line
-	7050 3800 7050 4550
-Wire Wire Line
-	7050 4550 7050 4700
+	7050 3800 7050 4700
 Wire Wire Line
 	6450 4450 6450 4550
 Connection ~ 7050 4550
-$Comp
-L Audio-Jack-2 J?
-U 1 1 61CB74DF
-P 1800 2750
-F 0 "J?" H 1775 2825 50  0000 C CNN
-F 1 "Audio-Jack-2" H 1775 2575 50  0000 C CNN
-F 2 "" H 2050 2750 50  0001 C CNN
-F 3 "" H 2050 2750 50  0001 C CNN
-	1    1800 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR?
-U 1 1 61CB7B2E
-P 2100 3250
-F 0 "#PWR?" H 2100 3000 50  0001 C CNN
-F 1 "Earth" H 2100 3100 50  0001 C CNN
-F 2 "" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-	1    2100 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3250 2100 2850
-Wire Wire Line
-	2100 2850 2000 2850
 $Comp
 L R R?
 U 1 1 61CB7FC4
@@ -741,9 +677,7 @@ Wire Wire Line
 	7050 3500 7050 3100
 Connection ~ 7050 3100
 Wire Wire Line
-	7050 1000 7050 1050
-Wire Wire Line
-	7050 1050 7050 1100
+	7050 1000 7050 1100
 $Comp
 L D_ALT D?
 U 1 1 61CDA2ED
@@ -767,11 +701,7 @@ F 3 "" H 4450 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 2700 5800 2700
-Wire Wire Line
-	5800 2700 6350 2700
-Wire Wire Line
-	6350 2700 6450 2700
+	5600 2700 6450 2700
 $Comp
 L NE5532 U?
 U 2 1 61CDBC39
@@ -784,9 +714,7 @@ F 3 "" H 5650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2700 4450 2700
-Wire Wire Line
-	4450 2700 5300 2700
+	4200 2700 5300 2700
 Text Label 4200 2700 0    60   ~ 0
 IN
 Text Label 10400 2000 0    60   ~ 0
@@ -1135,145 +1063,7 @@ F 3 "" H 8100 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9100 1500 9100 1650
-Wire Wire Line
-	9100 1650 9100 1700
-Wire Wire Line
-	9250 1650 9100 1650
-Connection ~ 9100 1650
-Wire Wire Line
-	9100 2300 9100 2400
-Wire Wire Line
-	9100 2400 9100 2550
-Wire Wire Line
-	9250 2400 9100 2400
-Connection ~ 9100 2400
-Wire Wire Line
-	9550 1650 9600 1650
-Wire Wire Line
-	9600 1650 9600 2400
-Wire Wire Line
-	9600 2400 9600 2550
-Wire Wire Line
-	9550 2400 9600 2400
-Connection ~ 9600 2400
-Wire Wire Line
-	7750 3200 7750 3100
-Wire Wire Line
-	5800 2800 5800 2700
-Connection ~ 5800 2700
-Wire Wire Line
-	6750 1700 6750 1900
-Wire Wire Line
-	6750 1900 6750 2500
-Wire Wire Line
-	7300 1700 7300 2100
-Wire Wire Line
-	7300 2100 7300 2500
-Wire Wire Line
-	6750 1900 8150 1900
-Connection ~ 6750 1900
-Wire Wire Line
-	7300 2100 8150 2100
-Connection ~ 7300 2100
-Wire Wire Line
-	8450 1900 8650 1900
-Wire Wire Line
-	8650 1900 8900 1900
-Wire Wire Line
-	8450 2100 8650 2100
-Wire Wire Line
 	8650 2100 8800 2100
-Wire Wire Line
-	8800 2100 8900 2100
-Wire Wire Line
-	8650 2500 8650 2100
-Connection ~ 8650 2100
-Wire Wire Line
-	8650 750  8650 1100
-Wire Wire Line
-	8650 1100 8650 1900
-Wire Wire Line
-	8650 1100 9150 1100
-Connection ~ 8650 1900
-Wire Wire Line
-	9450 1100 9750 1100
-Wire Wire Line
-	9750 750  9750 1100
-Wire Wire Line
-	9750 1100 9750 2000
-Wire Wire Line
-	9500 2000 9750 2000
-Wire Wire Line
-	9750 2000 9850 2000
-Wire Wire Line
-	4450 2550 4450 2700
-Wire Wire Line
-	4450 2700 4450 2850
-Wire Wire Line
-	4450 3150 4450 3200
-Wire Wire Line
-	4450 2200 4450 2250
-Connection ~ 4450 2700
-Wire Wire Line
-	6750 1400 6750 1250
-Wire Wire Line
-	6750 1250 6900 1250
-Wire Wire Line
-	7200 1250 7300 1250
-Wire Wire Line
-	7300 1250 7300 1400
-Wire Wire Line
-	7550 1550 7550 1450
-Wire Wire Line
-	7550 1050 7550 1150
-Wire Wire Line
-	6350 1050 7050 1050
-Wire Wire Line
-	7050 1050 7550 1050
-Connection ~ 7050 1050
-Wire Wire Line
-	5800 3200 5800 3100
-Wire Wire Line
-	7600 2700 7750 2700
-Wire Wire Line
-	7750 2700 8100 2700
-Wire Wire Line
-	7750 2700 7750 2800
-Wire Wire Line
-	8100 2200 8100 2250
-Wire Wire Line
-	6350 2200 8100 2200
-Wire Wire Line
-	6350 1700 6350 2200
-Wire Wire Line
-	6350 2200 6350 2250
-Wire Wire Line
-	6350 1050 6350 1400
-Connection ~ 6350 2200
-Wire Wire Line
-	6350 2550 6350 2700
-Wire Wire Line
-	6350 2700 6350 2800
-Connection ~ 6350 2700
-Wire Wire Line
-	8100 2550 8100 2700
-Wire Wire Line
-	8100 2700 8100 2800
-Connection ~ 7750 2700
-Connection ~ 8100 2700
-Wire Wire Line
-	6350 3200 6350 3100
-Wire Wire Line
-	8100 3200 8100 3100
-Wire Wire Line
-	6750 2900 6750 3100
-Wire Wire Line
-	6750 3100 7050 3100
-Wire Wire Line
-	7050 3100 7300 3100
-Wire Wire Line
-	7300 3100 7300 2900
 $Comp
 L Q_NPN_BCE Q?
 U 1 1 61CDFC31
@@ -1296,8 +1086,6 @@ F 3 "" H 6450 3950 50  0001 C CNN
 	1    6450 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6450 3950 6450 4050
 $Comp
 L R R?
 U 1 1 61CDFC33
@@ -1331,41 +1119,6 @@ F 3 "" H 7050 5200 50  0001 C CNN
 	1    7050 5200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7050 5200 7050 5000
-Wire Wire Line
-	7050 3800 7050 4550
-Wire Wire Line
-	7050 4550 7050 4700
-Wire Wire Line
-	6450 4450 6450 4550
-Connection ~ 7050 4550
-$Comp
-L Audio-Jack-2 J?
-U 1 1 61CDFC36
-P 1800 2750
-F 0 "J?" H 1775 2825 50  0000 C CNN
-F 1 "Audio-Jack-2" H 1775 2575 50  0000 C CNN
-F 2 "" H 2050 2750 50  0001 C CNN
-F 3 "" H 2050 2750 50  0001 C CNN
-	1    1800 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR?
-U 1 1 61CDFC37
-P 2100 3250
-F 0 "#PWR?" H 2100 3000 50  0001 C CNN
-F 1 "Earth" H 2100 3100 50  0001 C CNN
-F 2 "" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-	1    2100 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3250 2100 2850
-Wire Wire Line
-	2100 2850 2000 2850
 $Comp
 L R R?
 U 1 1 61CDFC38
@@ -1377,9 +1130,6 @@ F 3 "" H 10000 2000 50  0001 C CNN
 	1    10000 2000
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9750 2000
-Wire Wire Line
-	10400 2000 10150 2000
 $Comp
 L C C?
 U 1 1 61CDFC39
@@ -1391,12 +1141,6 @@ F 3 "" H 9300 750 50  0001 C CNN
 	1    9300 750 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9150 750  8650 750 
-Connection ~ 8650 1100
-Wire Wire Line
-	9450 750  9750 750 
-Connection ~ 9750 1100
 $Comp
 L GNDA #PWR?
 U 1 1 61CDFC3A
@@ -1408,8 +1152,6 @@ F 3 "" H 8650 3200 50  0001 C CNN
 	1    8650 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 3200 8650 2800
 $Comp
 L R R?
 U 1 1 61CDFC3B
@@ -1421,9 +1163,6 @@ F 3 "" H 8500 4550 50  0001 C CNN
 	1    8500 4550
 	0    -1   -1   0   
 $EndComp
-Connection ~ 8800 2100
-Wire Wire Line
-	8800 4550 8650 4550
 $Comp
 L POT_TRIM RV?
 U 1 1 61CDFC3C
@@ -1435,8 +1174,6 @@ F 3 "" H 8050 4550 50  0001 C CNN
 	1    8050 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 4550 8350 4550
 $Comp
 L -12V #PWR?
 U 1 1 61CDFC3D
@@ -1459,18 +1196,10 @@ F 3 "" H 8050 4350 50  0001 C CNN
 	1    8050 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 4350 8050 4400
-Wire Wire Line
-	8050 4700 8050 4750
-Wire Wire Line
-	8800 2100 8800 4550
 Text Notes 7650 4100 0    60   ~ 0
 Offset Correction
 Text Notes 7350 950  0    60   ~ 0
 balance correction
-Wire Wire Line
-	6450 4550 7050 4550
 $Comp
 L D_ALT D?
 U 1 1 61CDFC3F
@@ -1482,13 +1211,6 @@ F 3 "" H 8100 2400 50  0001 C CNN
 	1    8100 2400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7050 3500 7050 3100
-Connection ~ 7050 3100
-Wire Wire Line
-	7050 1000 7050 1050
-Wire Wire Line
-	7050 1050 7050 1100
 $Comp
 L D_ALT D?
 U 1 1 61CDFC40
@@ -1512,11 +1234,7 @@ F 3 "" H 4450 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 2700 5800 2700
-Wire Wire Line
 	5800 2700 6350 2700
-Wire Wire Line
-	6350 2700 6450 2700
 $Comp
 L NE5532 U?
 U 1 1 61CDFC42
@@ -1528,18 +1246,8 @@ F 3 "" H 5650 4250 50  0001 C CNN
 	1    5650 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 2700 4450 2700
-Wire Wire Line
-	4450 2700 5300 2700
 Text Label 4200 2700 0    60   ~ 0
 IN
 Text Label 10400 2000 0    60   ~ 0
 OUT
-$Sheet
-S 2500 4750 1750 1950
-U 61CE060A
-F0 "A" 60
-F1 "A.sch" 60
-$EndSheet
 $EndSCHEMATC

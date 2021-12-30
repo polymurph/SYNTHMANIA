@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:VCA-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -595,32 +594,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 4450 6450 4550
 Connection ~ 7050 4550
-$Comp
-L Audio-Jack-2 J?
-U 1 1 61CB74DF
-P 1800 2750
-F 0 "J?" H 1775 2825 50  0000 C CNN
-F 1 "Audio-Jack-2" H 1775 2575 50  0000 C CNN
-F 2 "" H 2050 2750 50  0001 C CNN
-F 3 "" H 2050 2750 50  0001 C CNN
-	1    1800 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR?
-U 1 1 61CB7B2E
-P 2100 3250
-F 0 "#PWR?" H 2100 3000 50  0001 C CNN
-F 1 "Earth" H 2100 3100 50  0001 C CNN
-F 2 "" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-	1    2100 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3250 2100 2850
-Wire Wire Line
-	2100 2850 2000 2850
 $Comp
 L R R?
 U 1 1 61CB7FC4
@@ -1341,32 +1314,6 @@ Wire Wire Line
 	6450 4450 6450 4550
 Connection ~ 7050 4550
 $Comp
-L Audio-Jack-2 J?
-U 1 1 61CDFC36
-P 1800 2750
-F 0 "J?" H 1775 2825 50  0000 C CNN
-F 1 "Audio-Jack-2" H 1775 2575 50  0000 C CNN
-F 2 "" H 2050 2750 50  0001 C CNN
-F 3 "" H 2050 2750 50  0001 C CNN
-	1    1800 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR?
-U 1 1 61CDFC37
-P 2100 3250
-F 0 "#PWR?" H 2100 3000 50  0001 C CNN
-F 1 "Earth" H 2100 3100 50  0001 C CNN
-F 2 "" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-	1    2100 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3250 2100 2850
-Wire Wire Line
-	2100 2850 2000 2850
-$Comp
 L R R?
 U 1 1 61CDFC38
 P 10000 2000
@@ -1536,10 +1483,4 @@ Text Label 4200 2700 0    60   ~ 0
 IN
 Text Label 10400 2000 0    60   ~ 0
 OUT
-$Sheet
-S 2500 4750 1750 1950
-U 61CE060A
-F0 "A" 60
-F1 "A.sch" 60
-$EndSheet
 $EndSCHEMATC
